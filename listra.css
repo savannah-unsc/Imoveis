@@ -1,0 +1,32 @@
+*{
+margin: 0;
+}
+body{
+font-family: Arial, sans-serif;
+color: #FFF;
+}
+#corpo{
+background-color: #85929E;
+height: 22.5vh;
+width: 80vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5vh;
+border-radius: 25px;
+display: grid;
+grid-template-rows: 100%;
+grid-template-columns: 100%;
+text-align: center;
+}
+#header{
+background-color: #2E4053;
+border-radius: 25px 25px 0px 0px;
+}
+#tabela{
+position: absolute;
+margin-top: 22.5vh;
+background-color: #85929E;
+height: 67.5vh;
+width: 80vw;
+border-radius: 0px 0px 25px 25px;
+}

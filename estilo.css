@@ -1,0 +1,78 @@
+*{
+margin: 0;
+}
+body{
+font-family: Arial, sans-serif;
+color: #FFF;
+}
+#corpo{
+background-color: #85929E;
+height: 90vh;
+width: 30vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5vh;
+border-radius: 25px;
+display: grid;
+grid-template-rows: 25% 75%;
+grid-template-columns: 100%;
+text-align: center;
+}
+#header{
+background-color: #2E4053;
+border-radius: 25px 25px 0px 0px;
+}
+#pesquisa{
+height: 9.64vh;
+width: 30vw;
+display: grid;
+grid-template-rows: 28% 72%;
+}
+#cadastro{
+margin-top: 32.1vh;
+position: absolute;
+height: 57.85vh;
+width: 30vw;
+display: grid;
+grid-template-rows: repeat(6, 4.7% 11.9%);
+}
+.txt{
+height: 80%;
+width: 90%;
+border: 1px solid black;
+border-radius: 50px;
+background-color: #FFF;
+margin-left: auto;
+margin-right: auto;
+}
+.texto{
+width: 70%;
+height: 95.5%;
+border: 0px solid #0000;
+}
+.icons{
+height: 20px;
+vertical-align: middle;
+}
+.btn{
+font-size: 15px;
+color: #FFF;
+padding: 15px 40px;
+border: 1px solid black;
+border-radius: 15px;
+text-decoration: none;
+background-color: #2E4053;
+text-align: center;
+transition: 0.1s;
+margin-left: 20px;
+margin-right: 20px;
+}
+.btn:hover{
+color: #000;
+background-color: #0000;
+transition: 0.1s;
+}
+#btn_pesquisa{
+background-color: #0000;
+border: 0px solid #0000;
+}
